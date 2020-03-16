@@ -1,0 +1,239 @@
+*{
+	margin:0;
+	padding:0;}
+
+html, body{
+	  	height: 100%;
+ }
+
+body{
+	font-size: 0.85em;
+	background-color: blue;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	height: 100%;
+	background-image: url();
+	background-repeat: no-repeat;
+	background-position: right center;	
+}
+
+#wrapper{	
+	position:relative;
+	width:1000px;
+	margin: 0 auto;
+	border-left: 2px solid #000000;
+	border-right: 2px solid #000000;
+	background-color: #FFFFFF;
+	background-repeat: no-repeat;
+	background-position: 600px 200px;
+	height:auto !important; /* real browsers */
+	height:100%; /* IE6: treaded as min-height*/
+	min-height:100%; /* real browsers */
+
+}
+
+/*---------------------------------------------------------------------------*/
+
+#header {
+	height: 150px;
+	font-size: 3em;
+	font-family: 'Exo', sans-serif;
+	background-image: url(../images/minions-film.jpg) ;
+	background-repeat: no-repeat;
+	background-position:  center -80px	;	
+}
+
+
+/*---------------------------------------------------------------------------*/
+
+#main {
+	margin: 0 0 40px 20px;
+
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+
+#footer{
+	color: #000099;
+	position:absolute;
+	bottom:-1px;
+	width: 1000px;
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+
+#header, #main, #footer {padding: 20px;};
+
+/*------------------Table Styling--------------------------------------------------------------*/
+
+caption {visibility:hidden;}
+
+table, tr, td , th{
+	border: 1px solid #000000;
+	padding: 5px;
+	margin: 20px 0;
+}
+
+table {
+	border-collapse: collapse;
+	background-color: #000000;
+}
+
+th{background: #000;
+	color:#fff;}
+
+tr {
+}
+
+td {
+	background:#FFFFFF;
+}
+
+table form {
+	width:60px;
+	border:none;}
+table th {
+	background:#000;
+	color: #fff;
+}		
+
+/*-------------------Basic tags-----------------------------------------------------------------*/
+
+h1, h2, h3 {
+	margin: 10px 0;
+}
+
+h1{ color:#F90;
+	text-shadow: 5px 5px 5px #000;
+	line-height: 2em;}
+h2{}
+h3{}
+
+p {padding: 5px ;}
+
+img {border: none; }
+
+span {	color:#900;
+		font-size: 0.7em;
+		display:block;
+		margin: 0 0 0 10px;
+}
+
+
+/*-------------------Navigation---------------------------------------------------------------*/
+
+#nav_top {
+	padding:10px;
+	background:#000099;
+}
+
+#nav_top a {
+	color:#fff;
+	text-decoration: none;
+	padding: 10px;
+
+}
+
+#nav_top a:hover {
+	background:#F90;
+	color:#000;
+}
+
+#nav_top ul {
+}
+
+#nav_top li  {
+	display:inline;
+	margin: 5px;
+}
+
+#subnav {
+	display: inline;
+	margin: 10px;
+}
+
+#subnav a{
+	color: #006600;
+}
+
+#subnav a:hover {
+	text-decoration: none;
+}
+
+
+/*--------------------List Styling--------------------------------------------------------------*/
+
+ul {
+	list-style-type: none;
+}
+
+/*---------------------Form styling-----------------------------------------------------------*/
+
+form {
+	border: 1px solid #000000;
+	padding: 5px;
+	width: 400px;
+	margin: 20px 0;
+}
+
+fieldset { 
+	margin: 5px 0;
+}
+
+legend {
+	color: #666;
+	margin-left: 10px;
+	padding: 0 2px;
+}
+
+label { }
+
+label, input {
+	margin: 5px;
+}
+
+/*---------------------------Clever Bits------------------------------------------------------------*/
+
+body#record #wrapper{
+	background-image: url(../../../../2888/dating/images/flying_saucer.gif);
+	background-repeat: no-repeat;
+	background-position: 700px 150px;
+}
+
+body#index #page1 , body#record #page2 ,body#abduction #page3 , body#add_record #page4, 
+body#delete_record #page5 , body# selection #page6, body#login #page7, body#register #page8  {
+	color:red;
+}
+
+body#delete_record #wrapper{
+	background-image: url(../../../../2888/dating/images/spaceship2.gif);
+	background-repeat: no-repeat;
+	background-position: 700px 150px;
+}
+
+
+body#add_record #wrapper{
+	background-image: url(../../../../2888/dating/images/spaceship.gif);
+	background-repeat: no-repeat;
+	background-position: 700px 150px;
+}
+
+/*---------------------------Useful Classes------------------------------------------------------------*/
+
+.highlight {
+	background:#99FF99;
+}
+
+.debug {color:#006600;}
+
+span.warn {
+	display:inline;
+	margin:0;
+	font-size: 1.5em;
+	color: red;}
+	
+ul.result {
+	padding: 5px;
+	font-variant: small-caps;
+}
+
+.error {color: red;}
